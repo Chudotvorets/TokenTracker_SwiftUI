@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		571F21152CF49AF300DC02E6 /* CoinAPIErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571F21142CF49AF300DC02E6 /* CoinAPIErrorModel.swift */; };
+		572E9D102CEDCCDA00DC1813 /* TokenTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572E9D0F2CEDCCDA00DC1813 /* TokenTrackerApp.swift */; };
+		572E9D3A2CEDCE2100DC1813 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572E9D392CEDCE2100DC1813 /* SearchBarView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		572E9D1D2CEDCCDE00DC1813 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,12 +30,138 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		571F21142CF49AF300DC02E6 /* CoinAPIErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinAPIErrorModel.swift; sourceTree = "<group>"; };
 		572E9D0C2CEDCCDA00DC1813 /* TokenTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TokenTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		572E9D0F2CEDCCDA00DC1813 /* TokenTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenTrackerApp.swift; sourceTree = "<group>"; };
 		572E9D1C2CEDCCDE00DC1813 /* TokenTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokenTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		572E9D262CEDCCDE00DC1813 /* TokenTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokenTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		572E9D392CEDCE2100DC1813 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		571F21012CF4953500DC02E6 /* Exceptions for "View" folder in "TokenTracker" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				DetailView.swift,
+			);
+			target = 572E9D0B2CEDCCDA00DC1813 /* TokenTracker */;
+		};
+		571F21022CF4954D00DC02E6 /* Exceptions for "Model" folder in "TokenTracker" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CoinDetailModel.swift,
+			);
+			target = 572E9D0B2CEDCCDA00DC1813 /* TokenTracker */;
+		};
+		571F21062CF4956800DC02E6 /* Exceptions for "ViewModel" folder in "TokenTracker" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				" DetailViewModel.swift",
+			);
+			target = 572E9D0B2CEDCCDA00DC1813 /* TokenTracker */;
+		};
+		571F21092CF4959F00DC02E6 /* Exceptions for "Service" folder in "TokenTracker" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CoinDetailDataService.swift,
+			);
+			target = 572E9D0B2CEDCCDA00DC1813 /* TokenTracker */;
+		};
+		571F210C2CF4966400DC02E6 /* Exceptions for "View" folder in "TokenTracker" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ContentView.swift,
+			);
+			target = 572E9D0B2CEDCCDA00DC1813 /* TokenTracker */;
+		};
+		571F210E2CF496C200DC02E6 /* Exceptions for "ViewModel" folder in "TokenTracker" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ContentViewModel.swift,
+			);
+			target = 572E9D0B2CEDCCDA00DC1813 /* TokenTracker */;
+		};
+		571F21102CF497B400DC02E6 /* Exceptions for "Model" folder in "TokenTracker" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CoinModel.swift,
+			);
+			target = 572E9D0B2CEDCCDA00DC1813 /* TokenTracker */;
+		};
+		571F21122CF497F200DC02E6 /* Exceptions for "Service" folder in "TokenTracker" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CoinDataService.swift,
+			);
+			target = 572E9D0B2CEDCCDA00DC1813 /* TokenTracker */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		571F20FD2CF4945000DC02E6 /* View */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				571F21012CF4953500DC02E6 /* Exceptions for "View" folder in "TokenTracker" target */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		571F20FE2CF4947100DC02E6 /* ViewModel */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				571F21062CF4956800DC02E6 /* Exceptions for "ViewModel" folder in "TokenTracker" target */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		571F20FF2CF494AC00DC02E6 /* Model */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				571F21022CF4954D00DC02E6 /* Exceptions for "Model" folder in "TokenTracker" target */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		571F21002CF494C500DC02E6 /* Service */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				571F21092CF4959F00DC02E6 /* Exceptions for "Service" folder in "TokenTracker" target */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		571F210B2CF4965300DC02E6 /* View */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				571F210C2CF4966400DC02E6 /* Exceptions for "View" folder in "TokenTracker" target */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		571F210D2CF496A500DC02E6 /* ViewModel */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				571F210E2CF496C200DC02E6 /* Exceptions for "ViewModel" folder in "TokenTracker" target */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		571F210F2CF497A800DC02E6 /* Model */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				571F21102CF497B400DC02E6 /* Exceptions for "Model" folder in "TokenTracker" target */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		571F21112CF497D400DC02E6 /* Service */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				571F21122CF497F200DC02E6 /* Exceptions for "Service" folder in "TokenTracker" target */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		572E9D0E2CEDCCDA00DC1813 /* TokenTracker */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = TokenTracker;
@@ -72,9 +204,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		571F20FC2CF4942500DC02E6 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				571F21002CF494C500DC02E6 /* Service */,
+				571F20FF2CF494AC00DC02E6 /* Model */,
+				571F20FE2CF4947100DC02E6 /* ViewModel */,
+				571F20FD2CF4945000DC02E6 /* View */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		571F210A2CF4963300DC02E6 /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				571F21112CF497D400DC02E6 /* Service */,
+				571F210F2CF497A800DC02E6 /* Model */,
+				571F210D2CF496A500DC02E6 /* ViewModel */,
+				571F210B2CF4965300DC02E6 /* View */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		571F21132CF49AA200DC02E6 /* CoinAPIError */ = {
+			isa = PBXGroup;
+			children = (
+				571F21142CF49AF300DC02E6 /* CoinAPIErrorModel.swift */,
+			);
+			path = CoinAPIError;
+			sourceTree = "<group>";
+		};
 		572E9D032CEDCCDA00DC1813 = {
 			isa = PBXGroup;
 			children = (
+				572E9D0F2CEDCCDA00DC1813 /* TokenTrackerApp.swift */,
+				571F21132CF49AA200DC02E6 /* CoinAPIError */,
+				571F210A2CF4963300DC02E6 /* ContentView */,
+				571F20FC2CF4942500DC02E6 /* DetailView */,
+				572E9D3E2CEDCEDD00DC1813 /* SearchBar */,
 				572E9D0E2CEDCCDA00DC1813 /* TokenTracker */,
 				572E9D1F2CEDCCDE00DC1813 /* TokenTrackerTests */,
 				572E9D292CEDCCDE00DC1813 /* TokenTrackerUITests */,
@@ -90,6 +257,14 @@
 				572E9D262CEDCCDE00DC1813 /* TokenTrackerUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		572E9D3E2CEDCEDD00DC1813 /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				572E9D392CEDCE2100DC1813 /* SearchBarView.swift */,
+			);
+			path = SearchBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +370,8 @@
 			);
 			mainGroup = 572E9D032CEDCCDA00DC1813;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 572E9D0D2CEDCCDA00DC1813 /* Products */;
 			projectDirPath = "";
@@ -236,6 +413,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				571F21152CF49AF300DC02E6 /* CoinAPIErrorModel.swift in Sources */,
+				572E9D3A2CEDCE2100DC1813 /* SearchBarView.swift in Sources */,
+				572E9D102CEDCCDA00DC1813 /* TokenTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
