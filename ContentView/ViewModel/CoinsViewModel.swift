@@ -27,6 +27,20 @@ class CoinsViewModel: ObservableObject {
         isLoading = true
     }
     
+    func fetchProductCompletionHandler() {
+        service.fetchCoinsWithResult { [weak self] result in
+            DispatchQueue.main.async {
+                switch result {
+                case .success(let coins):
+                    self?.coins = coins
+                case .failure(let error):
+                    self?.errorMessage = error.localizedDescription
+                }
+            }
+        }
+    }
+    
+    
      var filterProducts: [CoinModel] {
         if searchText.isEmpty {
             return coins
@@ -42,4 +56,10 @@ class CoinsViewModel: ObservableObject {
         
     }
     
+//    func fetchMarcetDataWithCompletionHandler() {
+//        
+//    }
+
+    
 }
+
